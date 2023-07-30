@@ -1,88 +1,141 @@
 import React from "react";
-
-// Astra
-// AI project
-// BCHIndex done
-// TopPrep done
-// Tech Taleem done
-// FlatBuddy
+import techTaleem from "../../assets/projects/techTaleem.png";
+import bchIndex from "../../assets/projects/bchindex.png";
+import anime from "../../assets/projects/animefascade.png";
+import astra from "../../assets/projects/astra3.png";
+import flatBuddy from "../../assets/projects/flatbuddy2.png";
 
 function Projects() {
   return (
     <div className="bg-black text-slate-300 font-signature">
-      <div className="font-bold text-center text-3xl mt-3 pt-3">Projects</div>
+      <div className="font-bold text-center text-3xl mt-5 pt-8">Projects</div>
       <div className="mt-10 text-2xl text-center">What I Have Made?</div>
+      <div className="flex  items-center justify-center min-h-screen font-signature">
+        <div className="text-center mx-5">
+          <div className="text-white text-2xl font-bold text-left">
+            Tech Taleem
+          </div>
+          <div className="w-96 text-lg mt-3 break-words whitespace-pre-wrap text-slate-300 text-left">
+            Tech Taleem is an online platform that provides education to the
+            students of Pakistan. The platform was developed using Native
+            Android Development in Kotlin and Firebase was used as a backend
+            service. The platform is currently in its beta phase and is being
+            tested by a few schools in Pakistan.
+          </div>
+          <div className="flex flex-col items-left mt-5">
+            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+              Visit Github
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3 h-1/5 rounded-lg border-solid border-slate-300 overflow-hidden">
+          <img
+            src={techTaleem}
+            alt="Tech Taleem"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex  items-center justify-center min-h-screen font-signature">
+        <div className="text-center mx-5">
+          <div className="text-white text-2xl font-bold text-left">
+            BchIndex
+          </div>
+          <div className="w-96 text-lg mt-3 break-words whitespace-pre-wrap text-slate-300 text-left">
+            BchIndex is a crypto-trading platform. Developed in Flutter and PHP
+            Laravel, thus allowing its users to buy and sell crypto-currencies.
+            Various aspects of the market such as Limit order, Market order etc.
+            were inculcated as features.
+          </div>
+          <div className="flex flex-col items-left mt-5">
+            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+              Visit Github
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3 h-1/5 rounded-lg border-solid border-slate-300 overflow-hidden">
+          <img
+            src={bchIndex}
+            alt="BchIndex"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex  items-center justify-center min-h-screen font-signature">
+        <div className="text-center mx-5">
+          <div className="text-white text-2xl font-bold text-left">
+            Anime-Fascade
+          </div>
+          <div className="w-96 text-lg mt-3 break-words whitespace-pre-wrap text-slate-300 text-left">
+            Anime-Fascade is an AI based platform developed to allow users to
+            generate anime art images of their choice based on the liking of
+            hair color. The platform was developed purely in python and
+            Generative Adversarial Networks were used to allow for image
+            generation. Techniques such K means clustering were used for data
+            cleansing.
+          </div>
+          <div className="flex flex-col items-left mt-5">
+            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+              Visit Github
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3 h-1/5 rounded-lg border-solid border-slate-300 overflow-hidden">
+          <img
+            src={anime}
+            alt="Anime-Fascade"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      <div className="flex  items-center justify-center min-h-screen font-signature">
+        <div className="text-center mx-5">
+          <div className="text-white text-2xl font-bold text-left">
+            Astra NFT Marketplace
+          </div>
+          <div className="w-96 text-lg mt-3 break-words whitespace-pre-wrap text-slate-300 text-left">
+            Astra NFT marketplace is an online marketplace developed and
+            designed in PHP laravel. The platform was designed to allow users to
+            upload their nfts and then put them for auction. Buying and selling
+            of the NFTs can be performed on the platform.
+          </div>
+          <div className="flex flex-col items-left mt-5">
+            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+              Visit Github
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3 h-1/5 rounded-lg border-solid border-slate-300 overflow-hidden">
+          <img src={astra} alt="Astra" className="w-full h-full object-cover" />
+        </div>
+      </div>
+      <div className="flex  items-center justify-center min-h-screen font-signature">
+        <div className="text-center mx-5">
+          <div className="text-white text-2xl font-bold text-left">
+            FlatBuddy
+          </div>
+          <div className="w-96 text-lg mt-3 break-words whitespace-pre-wrap text-slate-300 text-left">
+            FlatBuddy is an online marketplace aimed at allowing people to rent
+            out their properties, rooms and beds. The platform was developed in
+            Flutter and MySQL was used as a database. Nest.js was used as a
+            backend framework.
+          </div>
+          <div className="flex flex-col items-left mt-5">
+            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+              Visit Github
+            </button>
+          </div>
+        </div>
+        <div className="w-1/3 h-1/5 rounded-lg border-solid border-slate-300 overflow-hidden">
+          <img
+            src={flatBuddy}
+            alt="FlatBuddy"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
     </div>
   );
 }
 
 export default Projects;
-
-// const Projects = (props) => {
-//   return (
-//     <>
-//       <div className="ml-6 lg:mx-[16rem] mt-8 lg:mt-16 " id="projects">
-//         <span className="text-zinc-100 text-[30px] lg:text-[50px] font-bold">
-//           Projects{" "}
-//         </span>
-//       </div>
-//       {props.projects.map((project) => (
-//         <Project
-//           key={project.title}
-//           title={project.title}
-//           description={project.description}
-//           image={props.paths[project.title]}
-//           github_link={project.github_link}
-//         />
-//       ))}
-//     </>
-//   );
-// };
-
-// export default Projects;
-
-// const Project = (props) => {
-//   console.log("props : ", props);
-//   return (
-//     <>
-//       <div className="flex flex-wrap m-4 lg:mx-[15rem] border border-white rounded-lg p-4">
-//         <div className="w-[19rem] lg:w-[28rem] flex justify-center items-center">
-//           <img className="max-h-[400px]" src={props.image} alt="" />
-//         </div>
-//         <div className="w-[19rem] lg:w-[28rem] mt-8 lg:mt-0 lg:ml-8">
-//           <h1 className="text-3xl font-bold text-white">{props.title}</h1>
-//           <p className="text-md text-white mt-4 lg:mt-8 text-justify mb-10">
-//             {props.description}
-//           </p>
-//           <Github link={props.github_link} />
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// const Github = (props) => {
-//   return (
-//     <>
-//       <a className="" href={props.link}>
-//         <div className="flex mt-4">
-//           <div>
-//             <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-//               <path
-//                 fillRule="evenodd"
-//                 clipRule="evenodd"
-//                 d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
-//                 fill="#fff"
-//                 transform="scale(0.4)"
-//               />
-//             </svg>
-//           </div>
-
-//           <div className="ml-3 flex justify-center align-middle items-center text-xl font-bold">
-//             <h2 className="text-white">View Code</h2>
-//           </div>
-//         </div>
-//       </a>
-//     </>
-//   );
-// };
