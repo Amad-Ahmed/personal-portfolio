@@ -9,6 +9,8 @@ import pythonlogo from "../../assets/logos/python.png";
 import tensorlogo from "../../assets/logos/tensorflow.png";
 import pytorchlogo from "../../assets/logos/pytorch.png";
 
+// 300 by 240 is the size of the logo
+
 function Skills() {
   return (
     <div className="mt-5 font-signature">
