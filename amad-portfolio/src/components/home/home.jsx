@@ -18,7 +18,7 @@ function ProfileCard() {
             tackling complex challenges.
           </div>
           <div className="flex flex-col md:flex-row items-center mt-5">
-            <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-40">
+            <button className="shadow-inner hover:shadow-green-500 bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-40">
               Download CV
             </button>
           </div>
@@ -35,16 +35,16 @@ function ProfileCard() {
         Worked with
       </div>
       <div className="flex mt-5 mx-5 md:ml-44 font-signature justify-evenly pb-5">
-        <div className="bg-black w-40 h-14 items-center flex justify-center rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
+        <div className="shadow-inner hover:shadow-slate-300 bg-black w-40 h-14 items-center flex justify-center rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
           AIME
         </div>
-        <div className="bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
+        <div className="shadow-inner hover:shadow-slate-300 bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
           ONT Lab
         </div>
-        <div className="bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
+        <div className="shadow-inner hover:shadow-slate-300 bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
           MiTech
         </div>
-        <div className="bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
+        <div className="shadow-inner hover:shadow-slate-300 bg-black w-40 h-14 justify-center items-center flex rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300">
           CHI-Tech
         </div>
       </div>

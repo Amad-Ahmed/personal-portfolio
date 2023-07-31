@@ -14,7 +14,7 @@ function ProjectCard({ title, description, imageSrc }) {
           {description}
         </div>
         <div className="flex flex-col items-left mt-5">
-          <button className="bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
+          <button className="shadow-inner hover:shadow-green-500 bg-green-500 shadow-green-100 text-white cursor-pointer p-4 text-lg rounded-md w-4/5">
             Visit Github
           </button>
         </div>
