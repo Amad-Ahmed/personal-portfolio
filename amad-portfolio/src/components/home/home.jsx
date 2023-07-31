@@ -34,7 +34,7 @@ function ProfileCard() {
       <div className="text-white text-2xl text-left mt-3 ml-80 font-signature">
         Worked with
       </div>
-      <div className="flex mt-5 ml-44 font-signature justify-evenly pb-5">
+      <div className="flex mt-5 ml-44 font-signature justify-evenly pb-5 ">
         <div className="bg-black w-40 h-14 items-center flex justify-center  rounded-lg border-solid border-slate-300 border-2 px-2 text-slate-300 ">
           AIME
         </div>
