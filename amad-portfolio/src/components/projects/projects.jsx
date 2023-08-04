@@ -83,7 +83,7 @@ function Projects() {
         />
       </div>
 
-      {/* Roomie */}
+      {/* Roomie
       <div className="flex flex-col items-center mt-8">
         <ProjectCard
           title="Roomie"
@@ -91,7 +91,7 @@ function Projects() {
           imageSrc={flatBuddy}
           githubLink={FlatBuddy}
         />
-      </div>
+      </div> */}
 
       {/* Voting IVA */}
       <div className="flex flex-col items-center mt-8">
