@@ -1,6 +1,37 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 function Touch() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const templateParams = {
+      to_email: "amadsiddiqui619@gmail.com", // Change this to your recipient email address
+      from_email: event.target.email.value,
+      subject: event.target.subject.value,
+      message: event.target.message.value,
+    };
+
+    emailjs
+      .send(
+        "service_84r4t7l",
+        "template_1yy1p65",
+        templateParams,
+        "gd_BJy4ulMSuk9h8P"
+      )
+      .then(
+        (result) => {
+          alert("Email sent successfully!");
+        },
+        (error) => {
+          alert("Failed to send email. Please try again later.");
+        }
+      );
+
+    // Reset the form fields after sending the email
+    event.target.reset();
+  };
+
   return (
     <section class="bg-white dark:bg-white-900 font-signature">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -10,7 +41,7 @@ function Touch() {
         <p class="mb-8 lg:mb-16 font-light text-center text-black dark:text-black sm:text-xl">
           Got a Project? Need help with something? Feel free to reach out to me
         </p>
-        <form action="#" class="space-y-8">
+        <form action="#" class="space-y-8" onSubmit={handleSubmit}>
           <div>
             <label
               for="email"
