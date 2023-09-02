@@ -59,7 +59,7 @@ function ProfileCard() {
 
 function Home() {
   return (
-    <div className="bg-black">
+    <div id="home" className="bg-black">
       <ProfileCard />
     </div>
   );

@@ -23,7 +23,7 @@ function ImageCard({ imageSrc }) {
 
 function Skills() {
   return (
-    <div className="mt-8 mb-6 font-signature">
+    <div id="skills" className="mt-8 mb-6 font-signature">
       <div className="text-center font-bold text-2xl lg:text-3xl">Skills</div>
       <div className="mt-10 text-2xl text-center">What I am Capable of?</div>
 

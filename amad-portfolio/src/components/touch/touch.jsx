@@ -33,7 +33,7 @@ function Touch() {
   };
 
   return (
-    <section class="bg-white dark:bg-white-900 font-signature">
+    <section id="touch" class="bg-white dark:bg-white-900 font-signature">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-black dark:text-black">
           Get in touch

@@ -45,7 +45,7 @@ function ProjectCard({ title, description, imageSrc, githubLink }) {
 
 function Projects() {
   return (
-    <div className="bg-black text-slate-300 font-signature ">
+    <div id="projects" className="bg-black text-slate-300 font-signature ">
       <div className="font-bold text-center text-2xl lg:text-3xl mt-5 pt-6 lg:pt-10">
         Projects
       </div>
@@ -83,15 +83,15 @@ function Projects() {
         />
       </div>
 
-      {/* Roomie
+      {/* Roomie */}
       <div className="flex flex-col items-center mt-8">
         <ProjectCard
-          title="Roomie"
-          description="Roomie is an online marketplace aimed at allowing people to rent out their properties, rooms and beds. The platform was developed in Flutter and MySQL was used as a database. Nest.js was used as a backend framework."
+          title="FlatBuddy"
+          description="FlatBuddy is an online marketplace aimed at allowing people to rent out their properties, rooms and beds. The platform was developed in Flutter and MySQL was used as a database. Nest.js was used as a backend framework."
           imageSrc={flatBuddy}
           githubLink={FlatBuddy}
         />
-      </div> */}
+      </div>
 
       {/* Voting IVA */}
       <div className="flex flex-col items-center mt-8">
